@@ -1,16 +1,49 @@
 #title {
     background-color: #1f2937;
+    display: flex;
+    flex: 1;
+    flex-direction: column;
+}
+.row2{
+    display: flex;
+    flex: 1;
 }
 h2 {
-    font-size: 48 px;
+    font-size: 48px;
     font-weight: bolder;
     color: #f9faf8;
 }
 #subtext {
-    font-size: 18 px;
+    font-size: 18px;
     color: #e5e7eb;
 }
 .titles {
-    font-size: 24 px;
+    font-size: 24px;
     color: #f9faf8;
+}
+.flex-container {
+    display: flex;
+    flex-direction: column;
+    flex: 1; 
+}
+a {
+    color: gray;
+}
+#imageInfo {
+    color: #1f2937;
+    font-size: 36px;
+}
+#images {
+    display: flex;
+    flex: 1;
+}
+#quote {
+    background-color: #adaeb1;
+}
+#bottom {
+    background-color: #3882f6;
+
+}
+#footer {
+    background-color: blue;
 }
