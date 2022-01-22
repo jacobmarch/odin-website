@@ -1,8 +1,17 @@
-#title {
+.title {
     background-color: #1f2937;
-    display: flex;
-    flex: 1;
-    flex-direction: column;
+}
+#title1 {
+    
+}
+#title2 {
+    
+}
+#headerLogo {
+    text-align: left;
+}
+a {
+    text-align: right;
 }
 .row2{
     display: flex;
@@ -32,18 +41,29 @@ a {
 #imageInfo {
     color: #1f2937;
     font-size: 36px;
+    text-align: center;
 }
-#images {
+.images {
+    text-align: center;
     display: flex;
-    flex: 1;
+    flex: 1 1 0;
+    
 }
-#quote {
+.quote {
     background-color: #adaeb1;
+    text-align: center;
 }
-#bottom {
+.bottom {
     background-color: #3882f6;
-
+    display: flex;
+    flex-direction: column;
+}
+#bottom1 {
+    
 }
 #footer {
-    background-color: blue;
+    background-color: #1F2937;
+    color: white;
+    text-align: center;
+
 }
